@@ -1,0 +1,37 @@
+.card-country {
+  width: 10rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: groove 4px #4b4b4b; /* Color gris oscuro para el borde */
+  background-color: #1a1a2e;  /* Color de fondo oscuro */
+  border-radius: 5px;
+  cursor: pointer;  
+}
+
+.card-country:hover {
+  transform: scale(110%);  
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra al hacer hover */
+}
+  
+  .card-country > img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  
+  .card-country > h2 {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    color: #fff;
+    margin-top: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .opacity-board {  
+    opacity: 0.2;
+    background-color: gray;
+  }
